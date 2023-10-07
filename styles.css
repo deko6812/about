@@ -128,6 +128,9 @@ align-items: center;
 justify-content: center;
 padding-bottom: 158px;
 }
+.ingredients-img{
+    width: 100%;
+}
 .genuine{
     position: absolute;
 }
@@ -214,7 +217,7 @@ margin-left: 40px;
 /*--------------------------------------Footer----------------------------------------*/
 footer{
     background-color: #161010;
-    max-width: 1440px;
+    width: 100%;
 }
 .navFooter{
     border-bottom: 1px solid #fff;
