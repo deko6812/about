@@ -199,7 +199,7 @@ margin-left: 40px;
     border-top: 1px solid #9D9B9B;;
     padding-top: 24px;
     padding-bottom: 24px;
-    width: 629px;
+    width: 627px;
 }
 .sec3Con2{
     position: absolute;
@@ -435,7 +435,7 @@ br{
     }
     .list{
         max-width: 400px;
-        min-width: 325px;
+        min-width: 350px;
     }
     .navFooter{
         margin-left: 10px;
@@ -468,4 +468,12 @@ br{
     br{
         display: block;
     }
+    .sec3Con1b{
+        padding-right: 10px;
+    }
+    .list{
+        width: 100%;
+    }
+
+    
 }
