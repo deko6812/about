@@ -269,3 +269,93 @@ footer{
 .botFooter{
     padding-bottom: 32px;
 }
+@media (max-width:768px){
+    nav{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 32px;
+    }
+    .navCenter{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        left: 40px;
+        top: 9px;
+        height: 30px;
+        width: 300px;
+    }
+    .navLeftList1,.navRightList1,.footerListA1,.botList1{
+        font-size: 14px;
+    }
+    .navLeftList,.navRightList{
+        column-gap: 32px;
+    }
+    .what-we-do{
+        padding-bottom: 20px;
+    }
+    .what-we-do1,.sec3Text1{
+        font-size: 50px;
+    }
+    .cookies{
+        width: 210px;
+        padding-bottom: 20px;
+    }
+    .quote1Inner{
+        font-size: 12px;
+    }
+    .sec1Con1{
+        padding-bottom: 50px;
+    }
+    .the-story{
+        width: 200px;
+    }
+    .the-story1{
+        font-size: 16px;
+    }
+    .sec1Con2Quote1a,.sec1Con2Quote1b{
+        font-size: 30px;
+    }
+    .sec1Con2{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 25px;
+    }
+    .genuine-img{
+        width: 335px;
+    }
+    .section2{
+        padding-bottom: 70px;
+    }
+    .sec3Text1{
+        padding-bottom: 40px;
+    }
+    .sec3con2a{
+        display: none;
+    }
+    .section4{
+        padding-top: 70px;
+    }
+    .navFooter{
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .rihtFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .centerFooter{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .botFooter{
+        padding-bottom: 25px;
+    }
+}
