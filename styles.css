@@ -269,6 +269,11 @@ footer{
 .botFooter{
     padding-bottom: 32px;
 }
+/*-------------------------------------------HIDDEN--------------------------------------*/
+.forMobile{
+    display: none;
+}
+/*-------------------------------------------MEDIA--------------------------------------*/
 @media (max-width:768px){
     nav{
         position: relative;
@@ -357,5 +362,98 @@ footer{
     }
     .botFooter{
         padding-bottom: 25px;
+    }
+}
+@media (max-width:425px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+    .navLeftList,.navRightList{
+        display: none;
+    }
+    .navCenter{
+        position: absolute;
+        left: 10px;
+    }
+    .forMobile{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        width: 40px;
+        top: 5px;
+    }
+    .sec1Con1Left{
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        opacity: .3;
+    }
+    .sec1Con1{
+        padding-bottom: 100px;
+    }
+    .the-story{
+        padding-left: 10px;
+    }
+    .the-story1{
+        font-size: 12px;
+    }
+    .sec1Con2{
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 54px;
+    }
+    .sec1Con2Quote1a,.sec1Con2Quote1b{
+        font-size: 20px;
+    }
+    .genuine-img{
+        width: 212.5px;
+    }
+    .sec3Text1{
+        line-height: 50px;
+    }
+    .lemon1{
+        font-size: 16px;
+    }
+    .sec3Con1a{
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    .sec3Con1b{
+        margin-left: 10px;
+    }
+    .list{
+        max-width: 400px;
+        min-width: 325px;
+    }
+    .navFooter{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .footerListA{
+        column-gap: 20px;
+    }
+    .centerFooter{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .botFooter{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .noCopy1{
+        font-size: 8px;
+    }
+    .botList1{
+        font-size: 12px;
+    }
+    .botLists{
+        column-gap: 5px;
     }
 }
