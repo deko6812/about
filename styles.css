@@ -469,8 +469,3 @@ br{
         display: block;
     }
 }
-@media (max-width: 375px){
-    .list{
-        max-width:325px;
-    }
-}
